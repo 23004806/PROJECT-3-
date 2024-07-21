@@ -29,25 +29,25 @@ public class UNARINE {
     */
    
     if (marks>=80 && marks <=100){
-        System.out.println("Outstanding Performance");
+        System.out.println("Level 7 - Outstanding Performance");
         }
     else if (marks >=70 && marks <=79){
-        System.out.println("Meritorious achievement");
+        System.out.println("Level 6 - Meritorious achievement");
         }
     else if (marks >=60 && marks <=69){
-        System.out.println("Substantial achievement");
+        System.out.println("Level 5 - Substantial achievement");
         }
     else if (marks >=50 && marks <=59){
-        System.out.println("Moderate Achievement");
+        System.out.println("Level 4 - Moderate Achievement");
         }
     else if (marks >=40 && marks <=49){
-        System.out.println("Adequate Achievement");
+        System.out.println("Level 3 - Adequate Achievement");
         }
     else if (marks >=30 && marks <=39){
-        System.out.println("Below Average, Needs Improvement");
+        System.out.println("Level 2 - Below Average, Needs Improvement");
         }
     else if (marks >=0 && marks <=29){
-        System.out.println("Fail-Not achieved");
+        System.out.println("Level 1 - Fail-Not achieved");
         }
     else{
         System.out.println("The marks entered are not in the range");
